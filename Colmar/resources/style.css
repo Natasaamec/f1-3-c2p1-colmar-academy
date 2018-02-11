@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  font-size: 20px;
+font-family: 'Merriweather', serif;
+}
+.container{
+  text-align: center;
+  display: flex;
+  padding: 32px 24px;
+  width: auto;
+}
+
+.mobile {
+  display: none;
+}
+.mobile-nav {
+  display: none;
+}
+header{
+  display: flex;
+    height: 64px;
+    background-color: skyblue;
+    align-items: center;
+    padding: 0 24px;
+    position: fixed;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+.logo {
+  display: inline-flex;
+    padding-left: 24px;
+    align-items: center;
+}
+a {
+  text-decoration: none;
+}
+nav a{
+  padding: 1em;
+}
+h4, p {
+  text-align: left;
+}
+h2 {
+  text-align: center;
+}
+img{
+  width: 100%;
+  padding-bottom: 16px;
+}
+.first {
+  padding-top: 5rem;
+}
+.learn{
+  padding-left: 24px;
+}
+
+.button {
+  color: black;
+  background-color: skyblue;
+  line-height: 7.5rem;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  transition-delay: 1s;
+  transition-property: background-color;
+}
+.info-box{
+  width: 35%;
+  height: auto;
+  padding: 8px;
+}
+.main-media {
+  width: 60%;
+  }
+.information{
+  width: 40%;
+}
+.text {
+  width: 65%;
+  text-align: left;
+  padding-left: 16px;}
+.info {
+  display: flex;
+  padding-left: 16px;
+}
+.container-flex{
+  display: flex;
+      flex-wrap: wrap;
+      padding: 35px 75px;
+      justify-content: center;
+      background-color: skyblue;
+}
+.curs{
+  width: 30%;
+  padding: 16px;
+}
+.video-box {
+  width: 60%;
+  padding: 8px;
+}
+video {
+  width: 100%;
+}
+
+footer {
+  background-color: skyblue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 2rem;
+      padding-left: 16px;
+    padding-right: 32px;
+}
+
+
+@media only screen and (max-width: 768px){
+body {
+text-align: center;
+justify-content: center;
+}
+h1 {
+  text-align: left;
+}
+.desktop,
+ .logo{
+  display: none;
+}
+.container{
+  padding: 0px;
+}
+.mobile-nav{
+  display: flex;
+width: 100%;
+justify-content: space-around;
+}
+.mobile, .first {
+  display: block;
+}
+.first {
+  padding-top: 3rem;
+}
+.learn {
+  padding-right: 24px;
+}
+.text{
+  background: skyblue;
+margin: auto;
+width: 94%;
+border-radius: inherit;
+animation-fill-mode: forwards;
+}
+.main-media{
+  margin: auto;
+width: auto;
+}
+img {
+  padding-top: 32px;
+}
+.text {
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+h3 {
+  background-color: skyblue;
+height: 2rem;
+padding: 16px 32px;
+box-shadow: 11px 10px 11px 0px #607D8B;
+}
+}
